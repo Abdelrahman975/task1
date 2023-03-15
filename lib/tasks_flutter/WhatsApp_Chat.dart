@@ -67,7 +67,7 @@ Widget message()=>Container(
           children: [
             const CircleAvatar(
               radius:35.0,
-              backgroundColor:Colors.teal,
+              backgroundImage:AssetImage('assets/images/p1.png'),
             ),
             const SizedBox(width: 10.0,),
             Column(
