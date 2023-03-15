@@ -40,7 +40,7 @@ class Task extends StatelessWidget {
               height:10.0,
             ),
             Container(
-              decoration:BoxDecoration(
+              decoration:const BoxDecoration(
                 color:Colors.white
               ),
               child:
