@@ -14,20 +14,21 @@ class WhatsApp extends StatelessWidget {
           SizedBox(width:10.0,),
           Icon(Icons.message),
           SizedBox(width:10.0,),
+
         ],
       ),
-      drawer: Drawer(
-        child: SingleChildScrollView(
-          child:Container(
-            child: Column(
-              children: [
-                MyHeaderDrawer(),
-
-              ],
-            ),
-          ) ,
-        ),
-      ),
+      // drawer: Drawer(
+      //   child: SingleChildScrollView(
+      //     child:Container(
+      //       child: Column(
+      //         children: [
+      //           MyHeaderDrawer(),
+      //
+      //         ],
+      //       ),
+      //     ) ,
+      //   ),
+      // ),
       body:Column(
         children: [
           Expanded(
